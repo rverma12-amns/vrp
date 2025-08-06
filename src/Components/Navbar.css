@@ -1,0 +1,90 @@
+Main navigation links
+.navbar-links-container a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-links-container a:hover {
+  color: #e5322c;
+}
+
+/* Drawer link styling (Material UI ListItemText override) */
+.MuiListItemButton-root {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.MuiListItemButton-root:hover {
+  color: #e5322c;
+}
+
+/* Optional: change icon color too */
+.MuiListItemIcon-root {
+  color: #fff;
+}
+
+.MuiListItemButton-root:hover .MuiListItemIcon-root {
+  color: #e5322c;
+}
+
+
+/* Navbar links */
+.navbar-links-container a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 12px;
+  transition: color 0.3s ease;
+}
+
+.navbar-links-container a:hover {
+  color: #e5322c;
+}
+
+/* Cart icon */
+.navbar-cart-icon {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.navbar-cart-icon:hover {
+  color: #e5322c;
+}
+
+/* Bookings button */
+.primary-button {
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  transition: all 0.3s ease;
+}
+
+.primary-button:hover {
+  color: #e5322c;
+  border-color: #e5322c;
+}
+/* Regular anchor links */
+a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #e5322c; /* Optional: turn red on hover */
+}
+
+/* React Router Link wrapper */
+.navbar-links-container .active,
+.navbar-links-container a:visited {
+  color: #ffffff;
+}
+
+/* Optional styling for Link component directly */
+.navbar-links-container a,
+.navbar-links-container .link {
+  color: #ffffff;
+  font-weight: 500;
+}

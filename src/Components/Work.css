@@ -1,0 +1,106 @@
+.work-section-wrapper {
+  padding: 60px 40px;
+  background-color: #767070;
+  font-family: "Segoe UI", sans-serif;
+  color: #333;
+}
+
+.work-section-top {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.primary-subheading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff0000;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.primary-heading {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.primary-text {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.work-slider-wrapper {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding: 20px 0;
+}
+
+.work-slider {
+  display: flex;
+  gap: 24px;
+  padding-left: 20px;
+}
+
+.work-slide {
+  flex: 0 0 320px;
+  scroll-snap-align: start;
+  background-color: rgb(225, 36, 36);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(206, 47, 47, 0.1);
+  padding: 20px;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  transition: transform 0.3s ease;
+}
+
+.work-slide:hover {
+  transform: translateY(-10px);
+}
+
+.info-boxes-img-container {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.info-boxes-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.work-slide h2 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+.work-slide p {
+  font-size: 16px;
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+/* Optional scrollbar styling */
+.work-slider-wrapper::-webkit-scrollbar {
+  height: 8px;
+}
+
+.work-slider-wrapper::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  border-radius: 4px;
+}
+
+/* Mobile adjustments */
+@media screen and (max-width: 768px) {
+  .work-slide {
+    flex: 0 0 80%;
+  }
+}

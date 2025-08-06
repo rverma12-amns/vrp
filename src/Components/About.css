@@ -1,0 +1,97 @@
+.about-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px 40px;
+  flex-wrap: wrap; 
+}
+
+.about-image-wrapper {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.about-background-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+}
+
+.about-text-wrapper {
+  flex: 1;
+  min-width: 300px;
+}
+
+.primary-subheading {
+  font-size: 1.2rem;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.primary-heading {
+  font-size: 2.5rem;
+  color: #001529;
+  margin-bottom: 16px;
+}
+
+.primary-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.about-buttons-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.secondary-button,
+.watch-video-button {
+  background-color: #e5322c;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.secondary-button:hover,
+.watch-video-button:hover {
+  background-color: #b2221a;
+}
+
+
+/* General text styles */
+.primary-subheading,
+.primary-heading,
+.primary-text {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.primary-subheading:hover,
+.primary-heading:hover,
+.primary-text:hover {
+  color: #e5322c;
+}
+
+/* Optional: Buttons with similar hover behavior */
+.secondary-button,
+.watch-video-button {
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  transition: all 0.3s ease;
+}
+
+.secondary-button:hover,
+.watch-video-button:hover {
+  color: #e5322c;
+  border-color: #e5322c;
+}

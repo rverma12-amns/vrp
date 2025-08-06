@@ -1,0 +1,73 @@
+.home-container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.home-banner-image {
+  width: 10%;              /* Makes it fill its container */
+  max-width: 250px;         /* Prevents it from getting too large */
+  height: auto;             /* Maintains aspect ratio */
+  border-radius: 12px;      /* Optional: adds soft corners */
+  object-fit: cover;        /* Ensures the image fills nicely */
+}
+
+.home-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 60px 40px;
+  background-color: #ea2828;
+/* #00000000 */
+}
+
+.home-image-section {
+  flex: 1;
+  text-align: center;
+  min-width: 300px;
+}
+
+.home-banner-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.home-text-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+.primary-heading {
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: #002244;
+  margin-bottom: 20px;
+}
+
+.primary-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 24px;
+}
+
+.secondary-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #e5322c;
+  color: #d17b7b;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.secondary-button:hover {
+  background-color: #b2221a;
+}
