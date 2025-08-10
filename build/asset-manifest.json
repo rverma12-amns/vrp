@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/vpr/static/css/main.5cbd25bd.css",
-    "main.js": "/vpr/static/js/main.f344eb40.js",
-    "static/media/four.png": "/vpr/static/media/four.016891089f3475101c7f.png",
-    "static/media/one.png": "/vpr/static/media/one.1278a2325a9fb2d12379.png",
-    "static/media/homepage.jpg": "/vpr/static/media/homepage.8aaf63bbf514ca6bfd43.jpg",
-    "static/media/two.jpg": "/vpr/static/media/two.49554e24cbbf48344540.jpg",
-    "static/media/homepage-joint-logo.jpg": "/vpr/static/media/homepage-joint-logo.759560b7406b1c77fb25.jpg",
-    "index.html": "/vpr/index.html",
-    "main.5cbd25bd.css.map": "/vpr/static/css/main.5cbd25bd.css.map",
-    "main.f344eb40.js.map": "/vpr/static/js/main.f344eb40.js.map"
+    "main.css": "/vrp_react/static/css/main.5cbd25bd.css",
+    "main.js": "/vrp_react/static/js/main.f49af8f1.js",
+    "static/media/four.png": "/vrp_react/static/media/four.016891089f3475101c7f.png",
+    "static/media/one.png": "/vrp_react/static/media/one.1278a2325a9fb2d12379.png",
+    "static/media/homepage.jpg": "/vrp_react/static/media/homepage.8aaf63bbf514ca6bfd43.jpg",
+    "static/media/two.jpg": "/vrp_react/static/media/two.49554e24cbbf48344540.jpg",
+    "static/media/homepage-joint-logo.jpg": "/vrp_react/static/media/homepage-joint-logo.759560b7406b1c77fb25.jpg",
+    "index.html": "/vrp_react/index.html",
+    "main.5cbd25bd.css.map": "/vrp_react/static/css/main.5cbd25bd.css.map",
+    "main.f49af8f1.js.map": "/vrp_react/static/js/main.f49af8f1.js.map"
   },
   "entrypoints": [
     "static/css/main.5cbd25bd.css",
-    "static/js/main.f344eb40.js"
+    "static/js/main.f49af8f1.js"
   ]
 }
