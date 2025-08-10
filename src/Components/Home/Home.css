@@ -4,11 +4,11 @@
   margin: 0;
 }
 .home-banner-image {
-  width: 10%;              /* Makes it fill its container */
-  max-width: 250px;         /* Prevents it from getting too large */
-  height: auto;             /* Maintains aspect ratio */
-  border-radius: 12px;      /* Optional: adds soft corners */
-  object-fit: cover;        /* Ensures the image fills nicely */
+  width: 10%;            
+  max-width: 250px;        
+  height: auto;            
+  border-radius: 12px;     
+  object-fit: cover;       
 }
 
 .home-banner {
@@ -16,11 +16,12 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 40px;
-  padding: 60px 40px;
-  background-color: #ea2828;
-/* #00000000 */
+  gap: 60px; 
+  padding: 100px 60px; 
+  min-height: 60vh; 
+  background-color: #e5322c;
 }
+
 
 .home-image-section {
   flex: 1;
@@ -58,7 +59,7 @@
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  background-color: #e5322c;
+  background-color: #4b2ce5;
   color: #d17b7b;
   padding: 12px 24px;
   border: none;

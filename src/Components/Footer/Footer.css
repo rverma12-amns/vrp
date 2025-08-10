@@ -1,12 +1,12 @@
 .footer {
-  background-color: rgba(65, 45, 45, 0.7); /* Semi-transparent dark maroon */
+  background-color: rgba(65, 45, 45, 0.7); 
   color: #f5f5f5;
   padding: 60px 30px;
   font-family: "Segoe UI", sans-serif;
 }
 
 .footer-wrapper {
-  background-color: rgba(47, 47, 47, 0.7); /* Semi-transparent dark grey */
+  background-color: rgba(47, 47, 47, 0.7); 
   color: white;
   padding: 60px 40px;
   font-family: 'Segoe UI', sans-serif;

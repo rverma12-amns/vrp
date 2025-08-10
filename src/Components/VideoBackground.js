@@ -24,28 +24,7 @@ const VideoBackground = () => {
 };
 
 const styles = {
-//   container: {
-//     position: "fixed",
-//     top: 0,
-//     left: 0,
-//     zIndex: -1,
-//     width: "100%",
-//     height: "100%",
-//     overflow: "hidden"
-//   },
-//   video: {
-//     width: "100%",
-//     height: "100%",
-//     objectFit: "cover"
-//   },
-//   overlay: {
-//     position: "absolute",
-//     width: "100%",
-//     height: "100%",
-//     background: "rgba(255,255,255,0.1)" // Optional soft tint
-
-
-   
+ 
   container: {
     position: "fixed",
     top: 0,

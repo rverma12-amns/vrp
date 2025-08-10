@@ -88,7 +88,7 @@
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
-import Logo from "../Assets/logo.png";
+import Logo from "../../Assets/logo.png";
 import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
@@ -104,6 +104,8 @@ import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
+import { ROUTES } from '../../constants/routes';
+import { COLORS } from '../../constants/colors';
 
 import { Link } from "react-router-dom";
 
@@ -116,7 +118,7 @@ const Navbar = () => {
     { text: "About", icon: <InfoIcon />, href: "#about" },
     { text: "Work", icon: <CommentRoundedIcon />, href: "#work" },
     { text: "VendorRegistration", icon: <CommentRoundedIcon />, href: "#testimonial" },
-    { text: "Contact", icon: <PhoneRoundedIcon />, href: "#contact" },
+    { text: "Contact /us", icon: <PhoneRoundedIcon />, href: "#contact" },
     { text: "Cart", icon: <ShoppingCartRoundedIcon />, href: "#cart" },
     { text: "Login", icon: <ShoppingCartRoundedIcon />, href: "#Login" },
   ];
@@ -150,7 +152,7 @@ const Navbar = () => {
         <Link to="/login">
         <a href="#login" style={{ color: "#ffffff", textDecoration: "none" }}>Login</a>
         </Link>
-        <button  className="secondary-button"><a href="#login" style={{ color: "#ffffff", textDecoration: "none" }}>Login</a></button>
+        {/* <button  className="secondary-button"><a href="#login" style={{ color: "#ffffff", textDecoration: "none" }}>Login</a></button> */}
       </div>
 
       <div className="navbar-menu-container">

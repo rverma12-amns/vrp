@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Login.css";
-import VideoBackground from "../Components/VideoBackground";
+import VideoBackground from "../../Components/VideoBackground";
 
 const Login = () => {
   const [email, setEmail] = useState("admin@amns.com");
@@ -16,7 +16,7 @@ const Login = () => {
     const samplePassword = "Password123";
 
     if (email === sampleEmail && password === samplePassword) {
-      setShowSuccessModal(true); // Show modal
+      setShowSuccessModal(true); 
     } else {
       alert("Invalid email or password");
     }

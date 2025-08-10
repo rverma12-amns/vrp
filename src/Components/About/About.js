@@ -1,17 +1,17 @@
 import React from "react";
-import AboutBackground from "../Assets/one.png";
+import AboutBackground from "../../Assets/one.png";
 import { BsFillPlayCircleFill } from "react-icons/bs";
 import "./About.css"; 
 
 const About = () => {
   return (
     <section className="about-section-container">
-      {/* Image Side */}
+     
       <div className="about-image-wrapper">
         <img src={AboutBackground} alt="About AMNS" className="about-background-image" />
       </div>
 
-      {/* Text Side */}
+      
       <div className="about-text-wrapper">
         <p className="primary-subheading">About</p>
         <h1 className="primary-heading">AMNS</h1>

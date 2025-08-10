@@ -11,7 +11,6 @@ Main navigation links
   color: #e5322c;
 }
 
-/* Drawer link styling (Material UI ListItemText override) */
 .MuiListItemButton-root {
   color: #fff;
   transition: color 0.3s ease;
@@ -21,7 +20,7 @@ Main navigation links
   color: #e5322c;
 }
 
-/* Optional: change icon color too */
+
 .MuiListItemIcon-root {
   color: #fff;
 }
@@ -31,7 +30,7 @@ Main navigation links
 }
 
 
-/* Navbar links */
+/* Navbar link */
 .navbar-links-container a {
   color: #ffffff;
   text-decoration: none;
@@ -73,16 +72,15 @@ a {
 }
 
 a:hover {
-  color: #e5322c; /* Optional: turn red on hover */
+  color: #e5322c; 
 }
 
-/* React Router Link wrapper */
+
 .navbar-links-container .active,
 .navbar-links-container a:visited {
   color: #ffffff;
 }
 
-/* Optional styling for Link component directly */
 .navbar-links-container a,
 .navbar-links-container .link {
   color: #ffffff;

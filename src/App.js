@@ -1,16 +1,16 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import CartPage from "./Components/CartPage";
-import Home from "./Components/Home";
-import About from "./Components/About";
-import Work from "./Components/Work";
-import Testimonial from "./Components/Testimonial";
-import Contact from "./Components/Contact";
-import Footer from "./Components/Footer";
+import CartPage from "./Components/CartPage/CartPage";
+import Home from "./Components/Home/Home";
+import About from "./Components/About/About";
+import Work from "./Components/Work/Work";
+import Testimonial from "./Components/Testimonial/Testimonial";
+import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 import VideoBackground from "./Components/VideoBackground";
-import Login from "./Components/Login";
+import Login from "./Components/Login/Login";
 import VendorRegistration from "./Components/VendorRegistration";
-import ForgotPassword from "./Components/ForgotPassword";
+import ForgotPassword from "./Components/ForgotPassword/ForgotPassword";
 
 function MainPage() {
   return (

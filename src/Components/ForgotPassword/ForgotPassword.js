@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import "./ForgotPassword.css";
-import VideoBackground from "../Components/VideoBackground"; 
+import VideoBackground from "../VideoBackground"; 
 
 const ForgotPassword = () => {
   const [email, setEmail] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add logic to handle password reset (API call, validation, etc.)
+    
     alert(`Password reset link sent to ${email}`);
   };
 
@@ -31,3 +31,5 @@ const ForgotPassword = () => {
 };
 
 export default ForgotPassword;
+
+

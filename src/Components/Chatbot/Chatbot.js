@@ -129,7 +129,7 @@ const Chatbot = () => {
                 style={styles.actionButton}
                 onClick={() => handleSendQuick("tell me about mines")}
               >
-                🗺️ About Products
+                🗺️ About Products steel
               </button>
               <button
                 style={styles.actionButton}
@@ -183,8 +183,8 @@ const styles = {
   },
   icon: {
     fontSize: "30px",
-    backgroundColor: "E52726",
-    color: "#fff",
+    backgroundColor: "red",
+    color: "red",
     border: "none",
     borderRadius: "50%",
     width: "50px",
@@ -202,7 +202,7 @@ const styles = {
     overflow: "hidden",
   },
   header: {
-    backgroundColor: "#e5322c",
+    backgroundColor: "red",
     color: "#fff",
     padding: "12px",
     fontWeight: "bold",

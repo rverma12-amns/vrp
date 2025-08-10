@@ -35,23 +35,22 @@
 
 
 import React from "react";
-import BannerBackground from "../Assets/homepage.jpg";
-import Navbar from "./Navbar";
+import BannerBackground from "../../Assets/homepage.jpg";
+import Navbar from "../Navbar/Navbar";
 import { FiArrowRight } from "react-icons/fi";
-import "./Home.css"; // Link the CSS file
-import Chatbot from "./Chatbot";
+import "./Home.css"; 
+import Chatbot from "../Chatbot/Chatbot";
 
 const Home = () => {
   return (
     <div className="home-container">
       <Navbar />
       <div className="home-banner">
-        {/* Left Side: Image */}
+       
         <div className="home-image-section">
           <img src={BannerBackground} alt="AMNS Banner" className="home-banner-image" />
         </div>
 
-        {/* Right Side: Text */}
         <div className="home-text-section">
           <h1 className="primary-heading">COMPANY</h1>
           <p className="primary-text">

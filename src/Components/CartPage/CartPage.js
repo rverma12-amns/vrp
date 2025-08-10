@@ -1,4 +1,4 @@
-import VideoBackground from "../Components/VideoBackground";
+import VideoBackground from "../VideoBackground";
 import React, { useState, useEffect } from 'react';
 import { Row, Col, List, Card, Typography } from 'antd';
 import {
@@ -7,11 +7,11 @@ import {
   PhoneOutlined,
   UserOutlined,
 } from '@ant-design/icons';
- import ContactImage from '../Assets/homepage-joint-logo.jpg';
+ import ContactImage from '../../Assets/homepage-joint-logo.jpg';
 // import 'animate.css';
 // import Chatbot from './Chatbot'; 
-import Login from './Login'
-import Chatbot from '../Components/Chatbot';
+import Login from '../Login/Login'
+import Chatbot from '../Chatbot/Chatbot';
 const { Title, Text } = Typography;
 
 

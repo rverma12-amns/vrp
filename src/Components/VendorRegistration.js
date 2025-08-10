@@ -42,7 +42,7 @@ const VendorRegistration = () => {
     >
       <Typography style={{ textAlign: "center" }}>
         <Title level={3} style={{ color: "#DC3545" }}>
-          📝 Vendor Registration Portal
+           Vendor Registration Portal
         </Title>
         <Paragraph>
           If you are already registered, please visit the <a href="/Login">Login Page</a>.
@@ -156,14 +156,14 @@ const VendorRegistration = () => {
 export default VendorRegistration;
 
 // import React, { useState } from "react";
-// import { useNavigate } from "react-router-dom"; // 👈 import this
+// import { useNavigate } from "react-router-dom"; 
 // import "./Login.css";
 
 // const Login = () => {
 //   const [email, setEmail] = useState("admin@amns.com");
 //   const [password, setPassword] = useState("Password123");
 
-//   const navigate = useNavigate(); // 👈 initialize navigation
+//   const navigate = useNavigate();
 
 //   const handleLogin = (e) => {
 //     e.preventDefault();
@@ -172,7 +172,7 @@ export default VendorRegistration;
 
 //     if (email === sampleEmail && password === samplePassword) {
 //       alert("Login successful!");
-//       navigate("/cart"); // 👈 go to /cart
+//       navigate("/cart"); // 
 //     } else {
 //       alert("Invalid email or password");
 //     }
