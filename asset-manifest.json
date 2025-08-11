@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/vrp/static/css/main.044c3027.css",
+    "main.js": "/vrp/static/js/main.46d40851.js",
+    "static/media/four.png": "/vrp/static/media/four.016891089f3475101c7f.png",
+    "static/media/one.png": "/vrp/static/media/one.1278a2325a9fb2d12379.png",
+    "static/media/homepage.jpg": "/vrp/static/media/homepage.8aaf63bbf514ca6bfd43.jpg",
+    "static/media/two.jpg": "/vrp/static/media/two.49554e24cbbf48344540.jpg",
+    "static/media/homepage-joint-logo.jpg": "/vrp/static/media/homepage-joint-logo.759560b7406b1c77fb25.jpg",
+    "index.html": "/vrp/index.html",
+    "main.044c3027.css.map": "/vrp/static/css/main.044c3027.css.map",
+    "main.46d40851.js.map": "/vrp/static/js/main.46d40851.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.044c3027.css",
+    "static/js/main.46d40851.js"
+  ]
+}
