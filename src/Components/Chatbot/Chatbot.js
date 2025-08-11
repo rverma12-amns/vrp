@@ -127,7 +127,7 @@ const Chatbot = () => {
               </button>
               <button
                 style={styles.actionButton}
-                onClick={() => handleSendQuick("tell me about mines")}
+                onClick={() => handleSendQuick("Tell me about Products")}
               >
                 🗺️ About Products steel
               </button>

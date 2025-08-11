@@ -47,7 +47,7 @@
 .work-slide {
   flex: 0 0 320px;
   scroll-snap-align: start;
-  background-color: rgb(45, 38, 180);
+  background-color: rgb(223, 33, 58);
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(206, 47, 47, 0.1);
   padding: 20px;
@@ -94,7 +94,7 @@
 }
 
 .work-slider-wrapper::-webkit-scrollbar-thumb {
-  background-color: #bbb;
+  background-color: #e63131;
   border-radius: 4px;
 }
 
